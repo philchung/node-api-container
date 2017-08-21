@@ -38,7 +38,7 @@ restart-occs-deployment:
     - script:
         name: Restart OCCS Deployment
         code: |
-          curl -k -X POST 'https://140.86.14.9/api/v2/deployments/API-Container-20170802-172652/webhook/restart?token=hruzvnqd' -H 'authorization: Basic $($BEARER_TOKEN)'
+          curl -k -X POST 'https://140.86.12.44/api/v2/deployments/node-api-container-20170817-144343/webhook/restart?token=ompsnwvv' -H 'authorization: Basic $($BEARER_TOKEN)'
  
 
 # This pipeline will be chained to run in parallel with the restart-occs-deplyment pipeline in the 
